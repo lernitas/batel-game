@@ -97,7 +97,7 @@ Welcome to the thrilling world of **Lernitas** and **Zorksees**, where strategic
 ### 3. Skill vs. Wealth
 
 - **Leveraged Outcomes:** The game’s leveraged positions mean that market movements can dramatically alter the value of a player’s warriors. A smaller player with a well-chosen position that aligns with market movements can achieve higher GP than a larger player whose position moves unfavorably.
-  - **Example:** A whale deposits $1,000 worth of Zorksees to attack (short) ETH. If ETH’s price rises, their position is weakened, and they lose warriors. Conversely, a smaller player with $100 of Zorksees defending (long) ETH gains reinforcements and can stake more GP.
+  - **Example:** A whale deposits $1,000 worth of Zorksees to attack (short) ETH. If ETH’s price rises, their position is weakened, and they lose warriors. Conversely, a smaller player with $100 of Lernitas defending (long) ETH gains reinforcements and can stake more GP.
 - **Anti-Whale Mechanics:** The increasing cost of War Bonds over time discourages whales from making late-game large investments to manipulate outcomes. They would need to spend significantly more to cover their warriors and stake GP effectively.
 
 ### 4. Monitoring and Adapting
