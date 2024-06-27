@@ -79,3 +79,30 @@ Welcome to the thrilling world of **Lernitas** and **Zorksees**, where strategic
 - **Claiming Rewards:** Players must stake GP to claim a portion of the spoils. The distribution is based on the GP each player has accumulated, rewarding those with higher stakes.
 - **Winning Determination:** The side with the most GP staked wins the battle. The distribution of spoils is then shared among the winning team members, based on their individual GP stakes.
 - **Timely Claims:** Spoils must be claimed within 24 hours after the battle ends, or they roll over to the next distribution period.
+
+## Skill-Based Mechanics
+
+### 1. Strategic Decision-Making
+
+- **Market Predictions:** Success in battle relies on accurately predicting the market movements of ETH and SOL. A player who correctly anticipates these movements can significantly increase their warrior count and GP.
+  - **Example:** A player who defends (longs) ETH during a bull market will see their position grow stronger, gaining reinforcements and opportunities to stake more GP.
+- **Leverage Utilization:** The 100x leverage amplifies both gains and losses. Skillful players who understand market trends and timing can leverage this to their advantage, potentially outperforming larger players who make less effective decisions.
+
+### 2. Timing and GP Staking
+
+- **Dynamic Staking:** Players can lock in GP at any point during the battle, which means that smaller players with well-timed stakes can outperform larger players who may have more initial collateral but less strategic timing.
+  - **Example:** A smaller player who stakes GP during a favorable market swing will secure their gains, even if their position later turns unfavorable. A larger player, however, who stakes late and at a higher War Bond cost may not secure as much GP relative to their investment.
+- **Cost Efficiency:** Early War Bond purchases offer a cost advantage. Players who can predict market trends and buy War Bonds early at lower prices will have more GP for their investment, outpacing larger players who purchase War Bonds at higher costs later.
+
+### 3. Skill vs. Wealth
+
+- **Leveraged Outcomes:** The game’s leveraged positions mean that market movements can dramatically alter the value of a player’s warriors. A smaller player with a well-chosen position that aligns with market movements can achieve higher GP than a larger player whose position moves unfavorably.
+  - **Example:** A whale deposits $1,000 worth of Zorksees to attack (short) ETH. If ETH’s price rises, their position is weakened, and they lose warriors. Conversely, a smaller player with $100 of Zorksees defending (long) ETH gains reinforcements and can stake more GP.
+- **Anti-Whale Mechanics:** The increasing cost of War Bonds over time discourages whales from making late-game large investments to manipulate outcomes. They would need to spend significantly more to cover their warriors and stake GP effectively.
+
+### 4. Monitoring and Adapting
+
+- **Real-Time Engagement:** The game rewards players who actively monitor the market and adjust their strategies in real-time. This ongoing engagement allows for better decision-making and timely GP staking.
+  - **Example:** A player who actively tracks ETH and SOL price movements can lock in GP during peak favorable conditions, securing a stronger position in the prize distribution.
+
+Prepare for a unique blend of strategic positioning and dynamic market engagement in the world of **Lernitas** and **Zorksees**! Whether you’re a small player with sharp market instincts or a large player with substantial resources, your success hinges on your ability to predict, adapt, and strategically stake your positions.
