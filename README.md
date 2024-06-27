@@ -1,77 +1,81 @@
-# Game Concept: Epic Battles with Lernitas and Zorksees
-Welcome to the thrilling world of Lernitas and Zorksees, where strategic battles meet dynamic price movements!
+# Epic Battles with Lernitas and Zorksees
+
+Welcome to the thrilling world of **Lernitas** and **Zorksees**, where strategic battles meet dynamic price movements! Dive into this immersive experience where your tokens become warriors, and your strategies decide the spoils of war.
 
 ## Gameplay Overview:
 
-In this game, players use their tokens (Lernitas or Zorksees) as collateral for high-leverage positions in a simulated environment involving Ethereum (ETH) and Solana (SOL). Here’s how it works:
+### 1. Collateral and Leverage
 
-### 1. Collateral and Leverage:
-* Players can send Lernitas or Zorksees into battle as collateral for a notional 100x leveraged position on either ETH or SOL.
-* This leverage creates intense price action but does not impact your actual token holdings – no tokens are lost or gained directly due to price changes.
+- **Collateral Use:** Players use Lernitas or Zorksees as collateral for a simulated 100x leveraged position on either Ethereum (ETH) or Solana (SOL). This high leverage amplifies price movements, creating an intense and engaging battle scenario.
+- **Safe Simulation:** Despite the dramatic price movements, you don't risk losing your actual tokens. The leverage and battles are entirely within the game’s mechanics.
 
-### 2. Battle Mechanisms:
-* Attack (Short):
-    * Lernitas attacking means shorting SOL.
-    * Zorksees attacking means shorting ETH.
-* Defend (Long):
-    * Lernitas defending means going long on ETH.
-    * Zorksees defending means going long on SOL.
-      
-* The game UI shows your position valued in "warriors" with each warrior being valued at $0.03. So $100 worth of tokens equals 300 warriors.
+### 2. Battle Mechanics
 
-### 3. Warrior Dynamics:
-* As the price of ETH and SOL fluctuates, the number of warriors in battle changes dynamically.
-* Profits from price movements add reinforcements (more warriors), while losses result in casualties (fewer warriors).
-* The warrior count throughout the entire game influences your share of the spoils of war.
+- **Attack and Defend:**
+  - **Attack (Short):**
+    - **Lernitas** attack by shorting SOL.
+    - **Zorksees** attack by shorting ETH.
+  - **Defend (Long):**
+    - **Lernitas** defend by going long on ETH.
+    - **Zorksees** defend by going long on SOL.
+- **Warrior Conversion:** The UI translates your positions into "warriors." For instance, $100 worth of tokens gives you 300 warriors (valued at $0.03 per warrior).
 
-### 4. Treasury Contributions:
-* If your side loses, 1% of your collateral is transferred to the treasury.
-* These funds are allocated to the liquidity pool or other purposes as decided by governance.
+### 3. Warrior Dynamics
 
-### 5. Additional Collateral:
-* Players can send more generals (tokens) into the fray at any time to strengthen their position.
-* Warriors are ephemeral and only last for the battle duration, but generals (collateral) are returned after the battle, except for the 1% contribution if defeated.
+- **Price Movements:** The fluctuating prices of ETH and SOL dynamically adjust your number of warriors:
+  - **Profits** add reinforcements (more warriors).
+  - **Losses** result in casualties (fewer warriors).
+- **Final Count Impact:** While the number of warriors can change during the battle, the primary factor in determining rewards is not the final count of your warriors but the **Glory Points (GP)** you have staked.
+
+### 4. Treasury Contributions
+
+- **Losing Penalty:** If your side loses, 1% of your collateral is transferred to the treasury.
+- **Governance Use:** These funds support the liquidity pool or other governance-determined purposes.
+
+### 5. Additional Generals
+
+- **Reinforcements:** Players can send more generals (additional tokens) into battle at any time to strengthen their positions.
+- **Temporary Warriors:** Warriors are temporary and only last for the duration of the battle. However, generals are returned post-battle, minus the 1% treasury contribution if defeated.
 
 ## War Bonds and Glory Points (GP):
 
-To determine battle outcomes and rewards, players utilize War Bonds and Glory Points:
+### 1. War Bonds and Their Role in Battle
 
-### 1. Purchasing War Bonds:
-* War Bonds can be bought from the treasury at any time during the battle for USDC.
-* The price starts at a ratio of 300:1 vs the value of your supplied collateral (lernitas/zorksees sent to battle) and decays every block, reaching 10:1 approximately an hour before the battle ends.
-* Early or strategic purchasing of War Bonds can provide advantages.
+- **Purchasing War Bonds:**
+  - War Bonds can be bought from the treasury using USDC at any point during the battle.
+  - These funds collected from War Bond purchases form the prize pool that will be distributed to the victorious side.
+  - A 2% tax is applied to each War Bond purchase. This tax revenue is allocated to the treasury, with its usage determined by governance decisions.
+- **Pricing Mechanics:**
+  - Initial pricing starts at a favorable ratio of 300:1 against the value of your collateral (Lernitas or Zorksees).
+  - As the battle progresses, the cost of War Bonds **increases**. By the last hour of battle, the ratio will shift to 10:1, making late-stage purchases more expensive.
+- **Strategic Timing:**
+  - **Early Purchases** allow you to secure larger GP stakes at a lower cost.
+  - **Late Purchases** are more costly but allow for informed decisions based on the battle’s progression, preventing large players from easily manipulating outcomes in the final stages.
 
-### 2. Coverage and Strategy:
-War Bonds are essential for covering the value of your warriors in battle. If you decide to send more generals (collateral) into the fray, you might need to purchase additional War Bonds to ensure full coverage of your expanding army.
+### 2. Coverage and Strategy
 
-Example: If you send $100 worth of Zorksees into battle, you can initially buy a War Bond for $0.333 or wait until the last hour of the battle when the cost could rise to $10, depending on market conditions and the decay rate.
+- **War Bonds Coverage:** These bonds cover the value of your warriors. As your army grows, either through adding more collateral or market appreciation, you may need to buy additional War Bonds.
+- **Collateral Value Impact:**
+  - If the **market value of your collateral decreases**, the War Bond covers a larger percentage of your warriors.
+  - If the **collateral value increases** (due to price appreciation or additional tokens), the War Bond covers fewer warriors.
+- **Example:** Sending $100 worth of Zorksees initially allows you to buy a War Bond for $0.333. As time progresses, the price increases, so purchasing in the final hour could cost $10 or more, depending on market conditions.
 
-* **Collateral Value Impact:**
-    * If the market value of your collateral (Lernitas or Zorksees) decreases, the War Bond will cover a higher percentage of your warriors. This means if the collateral's price drops, your existing War Bond becomes more effective.
-    * Conversely, if the value of your collateral increases (due to market price appreciation or by adding more tokens), the War Bond will cover fewer of your warriors. Thus, you might need to purchase more War Bonds to maintain full coverage as your collateral value grows.
+### 3. Glory Points (GP)
 
-### 3. Glory Points (GP):
-* **War Bonds and GP:** War Bonds are crucial because they allow you to stake the value of your warriors in battle as GP. This staking is essential for determining your share of the spoils of war at the end of the battle.
+- **Staking via War Bonds:** Purchasing War Bonds allows you to stake the value of your warriors as GP, essential for determining your share of the spoils.
+- **Initial GP Staking:** The GP reflects the value of your collateral at the time of War Bond purchase, providing a baseline for your GP.
+- **Earning More GP:** As your leveraged position improves, you can accumulate more GP by staking additional value when your position is favorable.
 
-* **Initial GP Staking:** When you purchase a War Bond, you stake the value of your collateral at that moment as GP. This initial GP amount reflects the value of your collateral tokens (Lernitas or Zorksees) at the time of purchase, providing a baseline for your GP.
+### 4. Dynamic GP Staking
 
-* **Earning More GP:** As the battle progresses and your leveraged position improves, your warrior count can increase due to price movements. This growth allows you to stake more GP. Thus, purchasing a War Bond is just the starting point for accumulating GP – strategic staking during favorable market conditions can significantly enhance your GP.
+- **Real-Time Staking:** Throughout the battle, you can stake the current value of your warriors to lock in GP at any moment.
+- **Increasing Value:** If your position improves and you gain reinforcements, you can stake these new gains as GP, securing additional value.
+- **Secure Gains:** Once staked, GP remains locked in and is not reduced by subsequent losses in battle.
+- **Strategic Monitoring:** This encourages players to strategically monitor and stake GP during profitable periods. Even if your warriors perish, timely GP staking during favorable conditions can yield significant rewards.
 
-### 4. Dynamic GP Staking:
-* **Real-Time GP Staking:** Throughout the battle, you can monitor the value of your warriors and stake additional GP at any moment. This dynamic staking allows you to lock in GP based on the current value of your leveraged position.
+## Spoils of War
 
-* **Leveraged Position Increases:** If your position strengthens and you gain reinforcements (additional warriors), you can stake these new gains as GP, capitalizing on the profit and locking in more GP during the battle.
-
-* **Position Declines:** If your position weakens and you lose warriors, your previously staked GP remains unaffected. Once staked, GP is secure regardless of subsequent losses in the battle.
-
-* **Strategic Monitoring:** This mechanic encourages players to watch the battle closely and stake GP during profitable periods. Even if your warriors are eventually defeated, timely staking when your position is favorable can result in substantial GP accumulation. This strategic element ensures that even in defeat, you can secure a significant portion of the spoils by wisely managing and staking your GP.
-
-## Battle Outcomes and Rewards:
-
-### 1. Winning and Claiming Rewards:
-* At the end of each weekly battle epoch, the side with the most GP wins and can claim the spoils of war.
-* Rewards must be claimed within 24 hours, or they roll over to the next week’s distribution.
-### 2. Dynamic and Strategic Gameplay:
-* The dual-sided pricing mechanism, involving the market rate of Lernitas and Zorksees multiplied by your warriors in battle, creates an engaging and dynamic experience.
-* Players must strategize on when to buy War Bonds, how to manage their leveraged positions, and when to send additional generals to battle.
-* The ability to stake GP during profitable periods adds another layer of strategy and excitement to the game.
+- **Prize Pool Distribution:** Funds raised from War Bond purchases form the prize pool, awarded to the winning side at the end of each weekly battle epoch.
+- **Claiming Rewards:** Players must stake GP to claim a portion of the spoils. The distribution is based on the GP each player has accumulated, rewarding those with higher stakes.
+- **Winning Determination:** The side with the most GP staked wins the battle. The distribution of spoils is then shared among the winning team members, based on their individual GP stakes.
+- **Timely Claims:** Spoils must be claimed within 24 hours after the battle ends, or they roll over to the next distribution period.
