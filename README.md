@@ -6,7 +6,7 @@ Welcome to the thrilling world of **Lernitas** and **Zorksees**, where strategic
 
 ### 1. Collateral and Leverage
 
-- **Collateral Use:** Players use Lernitas or Zorksees as collateral for a simulated 100x leveraged position on either Ethereum (ETH) or Solana (SOL). This high leverage amplifies price movements, creating an intense and engaging battle scenario. Once you deposit collateral you cannot remove it until the battle ends. Players may deposit collateral to reinforce their position at anytime during the battle.
+- **Collateral Use:** Players use Lernitas or Zorksees as collateral for a simulated 100x leveraged position on either Ethereum (ETH) or Solana (SOL). This high leverage amplifies price movements, creating an intense and engaging battle scenario. Once you deposit collateral you cannot remove it until the battle ends. Players may deposit additional collateral to reinforce their position at anytime during the battle.
 - **Safe Simulation:** Despite the dramatic price movements, you don't risk losing your actual tokens/collateral. The leverage and battles are entirely within the game’s mechanics. However if your side loses, 1% of your collateral is transferred to the treasury.
 
 ### 2. Battle Mechanics
